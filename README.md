@@ -32,9 +32,9 @@ Depending on the size or complexity of the code, it can also be risky or hazardo
 
 One of the main pros was that the code ran faster - .496 seconds for the original file 2018 analysis vs .472 seconds in the refactored file 2018 analysis. Although this is a small amount of time savings, for a larger file this could be much more significant. 
 
-The refactored code also increases the flexibility. If I wanted to change the number of stocks that I was researching, I would have to update fewer pieces of information - only the array size and the initial for loop. 
+The refactored code also increases the flexibility because of the tickerIndex variable. If I wanted to change the number of stocks that I was researching, I would have to update fewer pieces of information - only the array size and the initial for loop. 
 
-The con to using someone else's code to start is that it took me much longer to understand the layout, than if I had written it myself. In some cases, the outline provided used language that I did not find intuitive. For example, this code took me a while to understand:
+The con to using someone else's code at the start, is that it took me much longer to understand the layout, than if I had written it myself. In some cases, the provided outline used language that I did not find intuitive. For example, this part of the outline took me a while to understand:
 ```
         '3d Increase the tickerIndex.
         Next j
@@ -42,10 +42,3 @@ The con to using someone else's code to start is that it took me much longer to 
     Next i
 ```    
 Had I written this myself from scratch, I would have known that I needed to move to the next part of the loop via the "Next j" and "Next i" commands.
-
-----------
-Overview of Project: Explain the purpose of this analysis.
-Results: Using images and examples of your code, compare the stock performance between 2017 and 2018, as well as the execution times of the original script and the refactored script.
-Summary: In a summary statement, address the following questions.
-What are the advantages or disadvantages of refactoring code?
-How do these pros and cons apply to refactoring the original VBA script?
